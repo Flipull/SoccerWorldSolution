@@ -1,0 +1,108 @@
+﻿html {
+  font-size: 14px;
+  min-height: 100%;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*********************************/
+#calendar_bar {
+    background-color: silver;
+    border-bottom: 1px solid gray;
+}
+    #calendar_bar > world_continue_button {
+        margin: 5px 15px 0px 0px;
+    }
+
+    #news_ticker {
+        border-top: 1px solid darkgray;
+        background-color: silver;
+        border-bottom: 3px solid black;
+    }
+
+#calendar_bar > #world_date {
+}
+
+#calendar_bar > #world_processing { /*loading-widget*/
+    height: 64px;
+    Width: 64px;
+    background-image: url('');
+}
+
+#world_view {
+    background-color: #FF0;
+    background-image: url('');
+}
+
+#world_view > #continent_view {
+    height: 50px;
+    background-color: aqua;
+    background-image: url('');
+}
+
+#world_view > #country_view {
+    height: 80px;
+    background-color: saddlebrown;
+    background-image: url('');
+}
+
+#competition_view {
+    text-align: center;
+    margin: 10px 0px;
+    background-color: bisque;
+}
+#competition_view > #season,
+#competition_view > #competition {
+    padding: 4px 15px;
+}
+#competitiontable > #competitiontable_header {
+    display: flex;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+#competitiontable > #competitiontable_view {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    font-size: smaller;
+}
+#competitiontable_view > .standings_element {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.standings_element > standings_club {
+}
+.standings_element > standings_W {
+}
+.standings_element > standings_W,
+.standings_element > standings_T,
+.standings_element > standings_L,
+.standings_element > standings_GF,
+.standings_element > standings_GA,
+.standings_element > standings_points {
+    border-bottom: 1px solid black;
+    width: 14%;
+    max-width: 14%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.standings_element > standings_GF {
+    margin-left: 10px;
+}
+.standings_element > standings_points {
+    margin-left: 10px;
+}
+
+#matches_view {
+    font-size: smaller;
+    background-color: lawngreen;
+    border: 1px solid black;
+}
+#matches_view .finished_match {
+    color: darkblue;
+}
